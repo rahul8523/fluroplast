@@ -1,6 +1,6 @@
 import React from "react";
 
-import automobileImg from "../../../assets/images/industries/automobile/automobile.jpg";
+import automobileImg from "../../../assets/images/industries/oil/oilgas.png";
 
 export default function OilHero() {
     return (
