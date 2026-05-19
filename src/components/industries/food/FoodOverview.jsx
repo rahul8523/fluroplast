@@ -1,39 +1,46 @@
 import React from "react";
 import { industryOverviewIcons } from "../overviewIconUrls";
-const icons = industryOverviewIcons.automobile;
+const icons = industryOverviewIcons.food;
 
 const challenges = [
     {
         icon: icons[0],
-        title: "friction and wear in moving assemblies",
+        title: "hygiene compliance requirements",
     },
     {
         icon: icons[1],
-        title: "exposure to fuels, oils, and additives",
+        title: "contamination prevention",
     },
     {
         icon: icons[2],
-        title: "thermal cycling under engine conditions",
+        title: "contamination prevention",
     },
     {
         icon: icons[3],
-        title: "dimensional stability in precision components",
+        title: "aggressive washdown chemicals",
     },
     {
         icon: icons[4],
-        title: "chemical exposure in braking and hydraulic systems",
+        title: "steam sterilization exposure",
     },
     {
         icon: icons[5],
-        title: "vibration and noise reduction requirements",
+        title: "product sticking and residue buildup",
     },
     {
         icon: icons[6],
-        title: "electrical insulation reliability in wiring systems",
+        title: "flange leakage in processing lines",
+    },
+    {
+        icon: icons[7],
+        title: "wear in conveyor and packaging automation systems",
     },
 ];
 
-export default function AutomobileIndustryOverview() {
+
+
+
+export default function FoodOverview() {
     return (
         <section className="bg-[#fff] py-14">
 
@@ -49,9 +56,9 @@ export default function AutomobileIndustryOverview() {
                         </p>
 
                         <h2 className="text-[30px] md:text-[40px]  font-bold text-black max-w-[500px]">
-                            Engineered for
+                            Food & Beverage
                             <br />
-                            Automobile Industry
+                            Industry
                         </h2>
                     </div>
 
@@ -59,20 +66,11 @@ export default function AutomobileIndustryOverview() {
                     <div className="space-y-4  mt-4">
 
                         <p className="text-[16px] text-[#4b4b4b] font-medium">
-                            Automotive manufacturing environments require materials
-                            capable of operating under continuous friction, thermal
-                            cycling, fuel exposure, vibration loading, and dimensional
-                            precision requirements. Fluoropolymers and high-performance
-                            engineering plastics are widely used in fuel systems,
-                            braking systems, sealing assemblies, wire insulation,
-                            sliding components, and automation tooling used in vehicle
-                            production.
+                           Food and beverage processing environments require materials that combine chemical resistance, hygienic safety, non-stick performance, and clean sealing reliability. Fluoropolymers are widely used across processing lines, transfer systems, packaging equipment, and sealing assemblies due to their inertness and compatibility with aggressive cleaning cycles such as CIP (Clean-In-Place) and SIP (Steam-In-Place).
                         </p>
 
                         <p className="text-[16px] text-[#4b4b4b] font-medium">
-                            Our PTFE and advanced fluoropolymer semi-finished products
-                            support OEM suppliers, Tier-1 manufacturers, and precision
-                            machining companies producing automotive components.
+                            Our fluoropolymer semi-finished products support hygienic equipment manufacturers, OEM processors, packaging automation suppliers, and maintenance teams operating in demanding production environments.
                         </p>
 
                     </div>
@@ -138,8 +136,7 @@ export default function AutomobileIndustryOverview() {
                 <div className="text-center mt-5">
 
                     <p className="text-[16px] text-[#444] font-medium">
-                        Fluoropolymers provide long-term performance under these
-                        demanding operating environments.
+                        Fluoropolymers provide stable and contamination-free performance across these demanding laboratory conditions.
                     </p>
 
                 </div>

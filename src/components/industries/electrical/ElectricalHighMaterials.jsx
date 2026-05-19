@@ -2,14 +2,14 @@ import React from "react";
 
 const materials = [
   {
-    title: "PEEK",
+    title: "ESD PTFE",
     description:
-      "Universal chemical resistance up to 260°C",
+      "Microporous venting solutions for acoustic",
   },
   {
-    title: "Filled PTFE grades",
+    title: "Carbon-filled PTFE",
     description:
-      "Universal chemical resistance up to 260°C",
+      "",
   },
 ];
 
@@ -23,7 +23,7 @@ export default function HighPerformanceMaterials() {
         <div className="text-center mb-10">
 
           <h2 className="text-[30px] md:text-[40px] font-bold text-black tracking-[-2px]">
-            High-Performance Engineering Materials
+            ESD Fluoropolymer Grades
           </h2>
 
         </div>

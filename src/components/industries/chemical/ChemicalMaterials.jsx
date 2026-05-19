@@ -2,29 +2,59 @@ import React from "react";
 
 const materials = [
   {
-    title: "PEEK",
+    title: "PTFE",
     description:
       "Universal chemical resistance up to 260°C",
   },
   {
-    title: "Filled PTFE grades",
+    title: "TFM",
+    description:
+      "Modified PTFE with improved creep resistance",
+  },
+  {
+    title: "PVDF",
+    description:
+      "Modified PTFE with improved creep resistance",
+  },
+  {
+    title: "ECTFE",
+    description:
+      "Outstanding barrier properties & impact resistance",
+  },
+  {
+    title: "ETFE",
     description:
       "Universal chemical resistance up to 260°C",
   },
+  {
+    title: "FEP",
+    description:
+      "Universal chemical resistance up to 260°C",
+  },
+  {
+    title: "ePTFE",
+    description:
+      "Expanded PTFE for superior sealing",
+  },
+
 ];
 
-export default function HighPerformanceMaterials() {
+export default function ChemicalMaterials() {
   return (
-    <section className="bg-[#f3f3f3] py-14 mt-4">
+    <section className="bg-[#f5f5f5] py-14">
 
-          <div className="container">
+      <div className="container">
 
-        {/* HEADING */}
+        {/* TOP HEADING */}
         <div className="text-center mb-10">
 
-          <h2 className="text-[30px] md:text-[40px] font-bold text-black tracking-[-2px]">
-            High-Performance Engineering Materials
+          <h2 className="text-[30px] md:text-[40px] font-bold text-black mb-2">
+            Materials for Chemical Processing
           </h2>
+
+          <p className="text-[16px] text-[#333] font-medium">
+            Each material is selected depending on temperature range, chemical exposure level, pressure conditions, and purity requirements.
+          </p>
 
         </div>
 

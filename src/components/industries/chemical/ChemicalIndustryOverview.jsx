@@ -1,39 +1,31 @@
 import React from "react";
 import { industryOverviewIcons } from "../overviewIconUrls";
-const icons = industryOverviewIcons.automobile;
+const icons = industryOverviewIcons.chemical;
 
 const challenges = [
     {
         icon: icons[0],
-        title: "friction and wear in moving assemblies",
+        title: "Corrosion from strong acids and alkalis",
     },
     {
         icon: icons[1],
-        title: "exposure to fuels, oils, and additives",
+        title: "Exposure to aggressive solvents",
     },
     {
         icon: icons[2],
-        title: "thermal cycling under engine conditions",
+        title: "High-temperature processing environments",
     },
     {
         icon: icons[3],
-        title: "dimensional stability in precision components",
+        title: "Leakage at flanges, valves, and joints",
     },
     {
         icon: icons[4],
-        title: "chemical exposure in braking and hydraulic systems",
-    },
-    {
-        icon: icons[5],
-        title: "vibration and noise reduction requirements",
-    },
-    {
-        icon: icons[6],
-        title: "electrical insulation reliability in wiring systems",
-    },
+        title: "Equipment maintenance downtime due to material degradation",
+    }
 ];
 
-export default function AutomobileIndustryOverview() {
+export default function ChemicalIndustryOverview() {
     return (
         <section className="bg-[#fff] py-14">
 
@@ -51,7 +43,7 @@ export default function AutomobileIndustryOverview() {
                         <h2 className="text-[30px] md:text-[40px]  font-bold text-black max-w-[500px]">
                             Engineered for
                             <br />
-                            Automobile Industry
+                            Extreme Chemical Environments
                         </h2>
                     </div>
 
@@ -59,20 +51,11 @@ export default function AutomobileIndustryOverview() {
                     <div className="space-y-4  mt-4">
 
                         <p className="text-[16px] text-[#4b4b4b] font-medium">
-                            Automotive manufacturing environments require materials
-                            capable of operating under continuous friction, thermal
-                            cycling, fuel exposure, vibration loading, and dimensional
-                            precision requirements. Fluoropolymers and high-performance
-                            engineering plastics are widely used in fuel systems,
-                            braking systems, sealing assemblies, wire insulation,
-                            sliding components, and automation tooling used in vehicle
-                            production.
+                            The chemical processing industry operates under some of the most demanding material environments, including exposure to strong acids, aggressive solvents, elevated temperatures, and continuous process cycles. Fluoropolymers are widely used in these applications due to their exceptional chemical inertness, thermal stability, and long service life.
                         </p>
 
                         <p className="text-[16px] text-[#4b4b4b] font-medium">
-                            Our PTFE and advanced fluoropolymer semi-finished products
-                            support OEM suppliers, Tier-1 manufacturers, and precision
-                            machining companies producing automotive components.
+                            Our fluoropolymer semi-finished products support reliable operation of chemical plants, reactors, pipelines, pumps, and sealing systems.
                         </p>
 
                     </div>
@@ -138,8 +121,7 @@ export default function AutomobileIndustryOverview() {
                 <div className="text-center mt-5">
 
                     <p className="text-[16px] text-[#444] font-medium">
-                        Fluoropolymers provide long-term performance under these
-                        demanding operating environments.
+                        Fluoropolymer materials provide long-term solutions to these challenges.
                     </p>
 
                 </div>

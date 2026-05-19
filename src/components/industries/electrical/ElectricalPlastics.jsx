@@ -3,23 +3,43 @@ import React from "react";
 const materials = [
     {
         title: "ESD POM",
-        description: "Universal chemical resistance up to 260°C",
+        description: "Lowest dielectric constant and loss factor.",
     },
     {
-        title: "ESD Nylon",
-        description: "Modified PTFE with improved creep resistance",
+        title: "ESD PVC",
+        description: "Superior surface finish and lower micro-porosity.",
     },
     {
         title: "ESD PC",
-        description: "Excellent mechanical strength & chemical resistance",
+        description: "Excellent piezoelectric properties and mechanical strength.",
+    },
+    {
+        title: "ESD Acrylic",
+        description: "Melt-processable with high transparency.",
+    },
+    {
+        title: "ESD Nylon",
+        description: "Microporous venting solutions for acoustic",
+    },
+    {
+        title: "ESD PEEK",
+        description: "Excellent piezoelectric properties and",
+    },
+    {
+        title: "ESD PEI",
+        description: "Excellent piezoelectric properties and",
     },
     {
         title: "ESD ABS",
-        description: "Outstanding barrier properties & impact resistance",
+        description: "Excellent piezoelectric properties and",
     },
     {
-        title: "ESD PTFE",
-        description: "Universal chemical resistance up to 260°C",
+        title: "ESD FR4/G10",
+        description: "Excellent piezoelectric properties and mechanical",
+    },
+    {
+        title: "ESD Durostone",
+        description: "Excellent piezoelectric properties and",
     },
 ];
 
@@ -45,10 +65,7 @@ export default function ESDEngineeringPlastics() {
             mx-auto
           ">
                         ESD Engineering Plastics
-                        <span className="font-bold">
-                         
-                            (for automotive electronics assembly)
-                        </span>
+
                     </h2>
 
                 </div>
@@ -77,9 +94,7 @@ export default function ESDEngineeringPlastics() {
                 <div className="text-center mt-10">
 
                     <p className="text-[16px] text-black font-medium max-w-[1200px] mx-auto">
-                        These materials are selected depending on friction load,
-                        temperature exposure, chemical compatibility, and
-                        electrical performance requirements.
+                        This material coverage makes your portfolio extremely strong compared to most PTFE-focused suppliers.
                     </p>
 
                 </div>

@@ -1,36 +1,33 @@
 import React from "react";
 import { industryOverviewIcons } from "../overviewIconUrls";
-const icons = industryOverviewIcons.automobile;
+const icons = industryOverviewIcons.electrical;
 
 const challenges = [
     {
         icon: icons[0],
-        title: "friction and wear in moving assemblies",
+        title: "electrostatic discharge damage to sensitive components",
     },
     {
         icon: icons[1],
-        title: "exposure to fuels, oils, and additives",
+        title: "high-temperature soldering environments",
     },
     {
         icon: icons[2],
-        title: "thermal cycling under engine conditions",
+        title: "dimensional stability requirements for precision fixtures",
     },
     {
         icon: icons[3],
-        title: "dimensional stability in precision components",
+        title: "dielectric insulation reliability",
     },
     {
         icon: icons[4],
-        title: "chemical exposure in braking and hydraulic systems",
+        title: "contamination control in semiconductor processing",
     },
     {
         icon: icons[5],
-        title: "vibration and noise reduction requirements",
+        title: "wear resistance in automated assembly systems",
     },
-    {
-        icon: icons[6],
-        title: "electrical insulation reliability in wiring systems",
-    },
+
 ];
 
 export default function AutomobileIndustryOverview() {
@@ -51,7 +48,7 @@ export default function AutomobileIndustryOverview() {
                         <h2 className="text-[30px] md:text-[40px]  font-bold text-black max-w-[500px]">
                             Engineered for
                             <br />
-                            Automobile Industry
+                            Electronics & Electrical Industry
                         </h2>
                     </div>
 
@@ -59,20 +56,11 @@ export default function AutomobileIndustryOverview() {
                     <div className="space-y-4  mt-4">
 
                         <p className="text-[16px] text-[#4b4b4b] font-medium">
-                            Automotive manufacturing environments require materials
-                            capable of operating under continuous friction, thermal
-                            cycling, fuel exposure, vibration loading, and dimensional
-                            precision requirements. Fluoropolymers and high-performance
-                            engineering plastics are widely used in fuel systems,
-                            braking systems, sealing assemblies, wire insulation,
-                            sliding components, and automation tooling used in vehicle
-                            production.
+                            Electronics and electrical manufacturing environments require materials with excellent electrical insulation properties, dimensional stability, thermal resistance, and electrostatic discharge (ESD) control performance. Fluoropolymers and engineering plastics are widely used in semiconductor processing equipment, PCB manufacturing, cable insulation systems, and automation fixtures.
                         </p>
 
                         <p className="text-[16px] text-[#4b4b4b] font-medium">
-                            Our PTFE and advanced fluoropolymer semi-finished products
-                            support OEM suppliers, Tier-1 manufacturers, and precision
-                            machining companies producing automotive components.
+                            Our fluoropolymer semi-finished stock shapes and ESD-grade engineering plastics support precision electronics manufacturing, cleanroom automation, and high-reliability electrical insulation applications.
                         </p>
 
                     </div>
@@ -98,8 +86,8 @@ export default function AutomobileIndustryOverview() {
                             className="
         w-[45%]
         sm:w-[47%]
-        md:w-[220px]
-        min-h-[150px]
+        md:w-[240px]
+        min-h-[160px]
         border
         border-[#2F80FF] shadow-[0_0_0_1px_#2F80FF]
         bg-white
@@ -138,8 +126,7 @@ export default function AutomobileIndustryOverview() {
                 <div className="text-center mt-5">
 
                     <p className="text-[16px] text-[#444] font-medium">
-                        Fluoropolymers provide long-term performance under these
-                        demanding operating environments.
+                        Specialized fluoropolymers and ESD-grade engineering plastics provide safe and reliable solutions.
                     </p>
 
                 </div>
