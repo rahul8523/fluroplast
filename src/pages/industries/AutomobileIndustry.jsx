@@ -16,7 +16,7 @@ import NoiseVibration from "../../components/industries/automobile/NoiseVibratio
 import AutomotiveElectronics from "../../components/industries/automobile/AutomotiveElectronics";
 import WhyFluoropolymers from "../../components/industries/automobile/WhyFluoropolymers";
 import RecommendedProducts from "../../components/industries/automobile/RecommendedProducts";
-import NewsletterSubscription from "../../components/industries/automobile/NewsletterSubscription";
+import NewsletterSubscription from "../../components/industries/common/NewsletterSubscription";
 
 export default function AutomobileIndustry() {
   return (
