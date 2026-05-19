@@ -1,6 +1,6 @@
 import React from "react";
 
-import infrastructureImg from "../../../assets/images/industries/infrastructure/Infrastructure.png";
+import infrastructureImg from "../../../assets/images/industries/Infrastructure/Infrastructure.png";
 
 export default function InfrastructureHero() {
     return (
